@@ -7,13 +7,12 @@ public class ejer5 {
 	
 	int num=0;
 	int res=0;
-	int c;
 	
 	
 	
 	while(num!=9999)
 	{
-		System.out.print("Ingrese numero: ");
+		System.out.print("Ingrese un numero: ");
 		num=teclado.nextInt();
 		
 	if(num!=9999)
