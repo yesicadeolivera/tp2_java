@@ -12,7 +12,7 @@ public class ejer7 {
 	
 	public void cargar() {
 		teclado= new Scanner(System.in);
-		System.out.println("Ingrese numero: ");
+		System.out.println("Ingrese primer numero: ");
 		num=teclado.nextInt();
 	
 		System.out.println("Ingrese segundo numero: ");
@@ -34,7 +34,7 @@ public class ejer7 {
 		System.out.print("Resta: "+resta);
 		System.out.println("\n");
 					}
-	public void multi() {
+	public void multiplicacion() {
 			
 		multi=num*num2;
 		System.out.print("Multiplicacion: "+multi);
@@ -55,7 +55,7 @@ public class ejer7 {
 	    	ejer.cargar();
 	    	ejer.suma();
 	    	ejer.resta();
-	    	ejer.multi();
+	    	ejer.multiplicacion();
 	    	ejer.division();
 	    
 	 	}
