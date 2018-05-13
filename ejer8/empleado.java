@@ -7,13 +7,13 @@ public class empleado extends persona {
 	
 	public void cargar() {
 		teclado= new Scanner(System.in);
-		System.out.print("Ingrese sueldo: ");
+		System.out.print("Ingrese su sueldo: ");
 		sueldo=teclado.nextInt();
 		
 						 }
 	public void imprimir() {
 		
-		System.out.print("Sueldo: "+sueldo);
+		System.out.print("Su sueldo es: "+sueldo);
 						   }
 	
 	public static void main(String[]ar) {
