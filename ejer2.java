@@ -4,7 +4,7 @@ public class ejer2 {
 	public static void main(String[]ar) {
 		Scanner teclado= new Scanner(System.in);
 		int num;
-		System.out.print("Ingrese numerillo: ");
+		System.out.print("Ingrese numero: ");
 		num=teclado.nextInt();
 		
 		if(num<10)
