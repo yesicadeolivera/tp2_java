@@ -18,10 +18,10 @@ public class ejer3 {
 		if(num%2==0)
 			{
 			par++;
-		    System.out.print("Es par" );	
+		    System.out.print("Numero par" );	
 			}else{
 			impar++;
-			System.out.print("Es impar");
+			System.out.print("Numero impar");
 			}
 		
 		}
