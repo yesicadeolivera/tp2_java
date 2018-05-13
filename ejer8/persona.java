@@ -16,8 +16,8 @@ public class persona {
     					}
     public void Imprimir() {
     	
-    	System.out.println("Nombre:" +nombre);
-    	System.out.println("Edad:"+edad);
+    	System.out.println("Su nombre:" +nombre);
+    	System.out.println("Su edad:"+edad);
     						}
     public static void main (String[]ar) {
     	persona persona2;
