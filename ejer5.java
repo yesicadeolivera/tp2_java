@@ -19,9 +19,24 @@ public class ejer5 {
 	{
 		res=res+num;
 		
+		
 	}else{
 		System.out.print(res);	
 		  }
+	}
+	
+	if(res==0)
+	{
+		System.out.print("\n");
+		System.out.print("La suma es 0 ");
+	}else {
+		if(res>0){
+			System.out.print("\n");
+			System.out.print("La suma es mayor a 0 ");
+				}else {
+					System.out.print("\n");
+					System.out.print("La suma es menor 0 ");	
+				}
 	}
 	
 }
